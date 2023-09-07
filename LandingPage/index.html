@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <div class="logo"><img src="pictures/logoipsum2.svg" alt="logo de telemática"></div>
+        <ul class="nav-links">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#testimonios">Testimonial</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a nuestro servicios de telemática</h1>
+            <p>Soluciones innovadoras para la comunicación y transferencia de datos</p>
+        </div>
+        <a href="#contacto" class="cta-button">Contáctanos</a>
+    </section>
+    <section class="servicios" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="lista">
+            <div class="service">
+                <img src="pictures/serviceone.svg" alt="Service one">
+                <h3>Servicio 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugiat quam molestiae, soluta nesciunt eaque harum dolore debitis, neque deserunt odio, tempore autem aspernatur rerum itaque aut quos nobis. Repellendus.</p>
+            </div>
+            <div class="service">
+                <img src="pictures/servicetwo.svg" alt="Service 2">
+                <h3>Servicio 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel recusandae expedita ex iste at maxime. Accusamus veritatis sit optio vero odit corporis. Quasi amet quaerat aperiam numquam minus possimus atque!</p>
+            </div>
+            <div class="service">
+                <img src="pictures/servicethree.svg" alt="Service 3">
+                <h3>Servicio 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure a repudiandae asperiores cumque atque quo ipsum temporibus adipisci. Mollitia porro blanditiis in ullam omnis aut nemo iste quidem! Ducimus, porro!</p>
+            </div>
+        </div>
+    </section>
+    <section class="nosotros" id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Somos una empresa lider en soluciones de telematica con una trayectoria exitosa</p>
+    </section>
+    <section class="testimonios" id="testimonios">
+        <h2>Testimonios</h2>
+        <div class="testimonial-slider">
+        <div class="testimonial">
+            <img src="pictures/person1small.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet rerum consequuntur omnis veritatis reprehenderit quis asperiores laboriosam sapiente, deleniti fugit vel voluptate modi debitis hic provident sequi, excepturi dolore sit.</p>
+            <p class="cliente-name">Alexander Alejandro</p>
+        </div>
+        <div class="testimonial">
+            <img src="pictures/person2.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero ipsa accusamus temporibus quod vero modi aut magni id quaerat iusto. Quo excepturi explicabo magni magnam nihil soluta dolorum, obcaecati labore!</p>
+            <p class="cliente-name">Enoc Castañeda</p>
+        </div>
+        <div class="testimonial">
+            <img src="pictures/person3.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum eveniet corrupti dignissimos alias quidem eligendi recusandae placeat unde molestias obcaecati accusamus tempora in amet architecto, consequatur, iste fuga! Debitis, unde.</p>
+            <p class="cliente-name">Paola Sanchez</p>
+        </div>
+    </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Listo para discutir tus necesidades de telemática?</p>
+        <a href="mailto:info@telematica.com">Enviar un correo</a>
+        <br />
+        <form action="procesar.php" method="post">
+            <h2>Dejanos un mensaje</h2>
+            <div class="class-group">
+                <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre" required>
+                
+            </div>
+            <div class="class-group">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="class-group">
+                <label for="mensaje">Mensaje: </label>
+               <textarea name="mensaje" id="mensaje" rows="4" requerid></textarea>
+            </div>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+    <section class="footer" id="footer">
+        <p>&copy; 2023 Telemática. Todos los derechos reservados.</p>
+    </section>
+</body>
+</html>
